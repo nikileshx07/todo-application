@@ -6,45 +6,59 @@ This project demonstrates full stack development including REST API creation, fr
 
 Project Structure
 
-todo-application
-└── demo
-    ├── .mvn
-    │   └── wrapper
-    │       └── maven-wrapper.properties
-    │
-    ├── backend
-    │   └── src
-    │       ├── main
-    │       │   ├── java
-    │       │   │   └── com
-    │       │   │       └── example
-    │       │   │           └── demo
-    │       │   │               ├── controller
-    │       │   │               ├── model
-    │       │   │               ├── repository
-    │       │   │               ├── service
-    │       │   │               └── DemoApplication.java
-    │       │   │
-    │       │   └── resources
-    │       │       └── application.properties
-    │       │
-    │       └── test
-    │           └── java
-    │               └── com
-    │                   └── example
-    │                       └── demo
-    │
-    ├── frontend
-    │   ├── public
-    │   ├── src
-    │   ├── package.json
-    │   └── package-lock.json
-    │
-    ├── .gitattributes
-    ├── .gitignore
-    ├── mvnw
-    ├── mvnw.cmd
-    └── pom.xml
+1 todo-application
+
+1.1 README.md
+
+1.2 demo
+
+  1.2.1 backend
+
+    1.2.1.1 src
+
+      1.2.1.1.1 main
+
+        1.2.1.1.1.1 java
+
+          - com.example.demo.controller
+
+          - com.example.demo.model
+
+          - com.example.demo.repository
+
+          - com.example.demo.service
+
+          - DemoApplication.java
+
+        1.2.1.1.1.2 resources
+
+          - application.properties
+
+      1.2.1.1.2 test
+
+        - java/com/example/demo
+
+  1.2.2 frontend
+
+    - public
+
+    - src
+
+    - package.json
+
+    - package-lock.json
+
+  1.2.3 .mvn
+
+  1.2.4 .gitattributes
+
+  1.2.5 .gitignore
+
+  1.2.6 mvnw
+
+  1.2.7 mvnw.cmd
+
+  1.2.8 pom.xml
 
 
 Features
