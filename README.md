@@ -61,6 +61,8 @@ Project Structure
   1.2.8 pom.xml
 
 
+
+
 Features
 
 Add new Todo
@@ -76,6 +78,9 @@ Mark Todo as completed / not completed
 REST API-based backend
 
 Simple and clean user interface
+
+
+
 
 Technologies Used
 
@@ -93,6 +98,9 @@ H2 Database
 
 Maven
 
+
+
+
 Frontend:
 
 React JS
@@ -105,11 +113,17 @@ CSS
 
 JavaScript
 
+
+
+
 Version Control:
 
 Git
 
 GitHub
+
+
+
 
 Prerequisites
 
@@ -129,6 +143,9 @@ java -version
 node -v
 npm -v
 git --version
+
+
+
 
 How to Run the Project on Your Laptop
 
@@ -150,6 +167,9 @@ For Mac/Linux:
 
 Backend will start at:
 http://localhost:8080
+
+
+
 
 Step 3: Access H2 Database (Optional)
 
@@ -219,7 +239,7 @@ Deploy the application online
 
 Add pagination and search functionality
 
-Author
+Author:
 
 Vatapalli Nikilesh Babu
 B.Tech – Information Technology
