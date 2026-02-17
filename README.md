@@ -7,13 +7,45 @@ This project demonstrates full stack development including REST API creation, fr
 Project Structure
 
 todo-application
-│
 └── demo
-  ├── backend (Spring Boot Application)
-  ├── frontend (React Application)
-  ├── pom.xml
-  ├── mvnw
-  └── mvnw.cmd
+    ├── .mvn
+    │   └── wrapper
+    │       └── maven-wrapper.properties
+    │
+    ├── backend
+    │   └── src
+    │       ├── main
+    │       │   ├── java
+    │       │   │   └── com
+    │       │   │       └── example
+    │       │   │           └── demo
+    │       │   │               ├── controller
+    │       │   │               ├── model
+    │       │   │               ├── repository
+    │       │   │               ├── service
+    │       │   │               └── DemoApplication.java
+    │       │   │
+    │       │   └── resources
+    │       │       └── application.properties
+    │       │
+    │       └── test
+    │           └── java
+    │               └── com
+    │                   └── example
+    │                       └── demo
+    │
+    ├── frontend
+    │   ├── public
+    │   ├── src
+    │   ├── package.json
+    │   └── package-lock.json
+    │
+    ├── .gitattributes
+    ├── .gitignore
+    ├── mvnw
+    ├── mvnw.cmd
+    └── pom.xml
+
 
 Features
 
